@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikhil Shah Resume</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+}
+
+/* TOP HEADER */
+.top-header {
+  margin: 0 3.5cm;
+  margin-top: 20px;
+  padding: 20px 25px;
+  background: linear-gradient(to right, #f5f5f5, #eaeaea);
+  border-top: 6px solid #2c8a7b;
+  border-radius: 10px 10px 0 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-left h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #0d3f4f;
+}
+
+.top-left p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.top-right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background: #8cc63f;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #8cc63f;
+  color: #8cc63f;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 0 3.5cm 40px;
+}
+
+/* LEFT PANEL */
+.left {
+  width: 35%;
+  background: #0d3f4f;
+  color: white;
+  padding: 25px 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  direction: rtl;
+}
+
+.left * {
+  direction: ltr;
+}
+
+/* CURVES */
+.left::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -70px;
+  width: 260px;
+  height: 260px;
+  background: #0d3f4f;
+  border-radius: 0 0 0 260px;
+}
+
+.left::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -40px;
+  width: 260px;
+  height: 260px;
+  background: #8cc63f;
+  border-radius: 0 0 0 260px;
+}
+
+/* PROFILE */
+.profile {
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid white;
+  outline: 4px solid #8cc63f;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* LEFT SECTIONS */
+.section-left {
+  margin-top: 25px;
+}
+
+.section-left h3 {
+  border: 2px solid white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.section-left p, .section-left li {
+  font-size: 13px;
+}
+
+/* RIGHT PANEL */
+.right {
+  width: 65%;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* TITLES */
+.title {
+  background: #0d3f4f;
+  color: white;
+  padding: 7px 18px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.block {
+  margin-bottom: 25px;
+}
+
+.block p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+/* MOBILE FIX */
+@media (max-width: 900px) {
+
+  /* 🔥 HEADER CENTER FIX */
+  .top-header {
+    margin: 0;
+    border-radius: 0;
+    text-align: center;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-left h1 {
+    font-size: 26px;
+  }
+
+  .top-left p {
+    font-size: 13px;
+  }
+
+  .top-right {
+    margin-top: 12px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* LAYOUT FIX */
+  .container {
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+  }
+
+  .left, .right {
+    width: 100%;
+    overflow: visible;
+    direction: ltr;
+  }
+
+  .left::before,
+  .left::after {
+    display: none;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- TOP HEADER -->
+<div class="top-header">
+  <div class="top-left">
+    <h1>Nikhil Shah</h1>
+    <p>BCA Graduate • Computer Operations • Digital Marketing</p>
+  </div>
+
+  <div class="top-right">
+    <a href="#" class="btn">⬇ Download CV</a>
+    <a href="#" class="btn outline">in LinkedIn</a>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- LEFT -->
+<div class="left">
+
+<div class="profile">
+  <img src="https://drive.google.com/uc?export=view&id=1rzj3L8aKEf0aMqxdr1Tc85B_v7wixrVt">
+  <h2>Nikhil Shah</h2>
+  <p>BCA Graduate</p>
+</div>
+
+<div class="section-left">
+  <h3>CONTACT</h3>
+  <p>📍 Lachit Path, Graham Bazar, Dibrugarh, Assam – 786001</p>
+  <p>📞 +91 9954567324</p>
+  <p>✉️ iamnikss31@gmail.com</p>
+</div>
+
+<div class="section-left">
+  <h3>SKILLS</h3>
+  <ul>
+    <li>MS Office (Word, Excel, PowerPoint)</li>
+    <li>Swill ERP Software (Billing & Inventory)</li>
+    <li>Billing & Data Entry</li>
+    <li>PDF Creation & Documentation</li>
+    <li>Digital Marketing (Instagram Ads & Promotions)</li>
+    <li>Basic Technical Troubleshooting</li>
+    <li>HTML, CSS, C Programming</li>
+    <li>MySQL Database Management</li>
+    <li>Communication & Sales Handling</li>
+  </ul>
+</div>
+
+<div class="section-left">
+  <h3>LANGUAGES</h3>
+  <p>English<br>Hindi<br>Assamese<br>Bengali</p>
+</div>
+
+</div>
+
+<!-- RIGHT -->
+<div class="right">
+
+<div class="block">
+  <div class="title">ABOUT ME</div>
+  <p>
+  Detail-oriented and adaptable BCA graduate with hands-on experience in managing computer-related operations in a clinical setting. Experienced in using Swill ERP for billing and record management, along with skills in digital marketing and sales handling. Strong background in teaching and communication. Seeking an opportunity in a computer-related, administrative, or clinic/hospital role to contribute efficiently while growing professionally.
+  </p>
+</div>
+
+<div class="block">
+  <div class="title">WORK EXPERIENCE</div>
+
+  <p><b>Clinic Assistant (Computer Operations Head, Server Management & Sales Support)</b><br>
+  Private Clinic | Duration: 6 Months</p>
+
+  <ul>
+    <li>Led and supervised all computer-related staff and operations</li>
+    <li>Managed billing operations using Swill ERP software</li>
+    <li>Maintained digital records and inventory tracking</li>
+    <li>Handled server-side operations</li>
+    <li>Performed troubleshooting</li>
+    <li>Created PDF documents and reports</li>
+    <li>Managed Instagram ads</li>
+    <li>Handled sales and customer interaction</li>
+  </ul>
+
+  <p><b>Private Tutor</b> – 1 Year</p>
+  <ul>
+    <li>Provided academic support</li>
+    <li>Improved understanding</li>
+  </ul>
+
+  <p><b>Digital Marketing Experience</b></p>
+  <ul>
+    <li>Created and managed ads</li>
+    <li>Increased engagement</li>
+  </ul>
+
+</div>
+
+<div class="block">
+  <div class="title">EDUCATION</div>
+  <p><b>BCA – Dibrugarh University</b><br>2022 – 2025 | CGPA: 6.17</p>
+  <p><b>Higher Secondary (Science)</b><br>58.8%</p>
+  <p><b>HSLC (10th)</b><br>62.5%</p>
+</div>
+
+<div class="block">
+  <div class="title">PROJECT</div>
+  <p><b>EduPannel – Online Learning Platform</b></p>
+  <ul>
+    <li>Developed as major academic project</li>
+    <li>Focused on digital learning solutions</li>
+  </ul>
+</div>
+
+<div class="block">
+  <div class="title">ADDITIONAL INFO</div>
+  <p>
+  Father: Nand Kishor Shah<br>
+  Mother: Ranjita Shah<br>
+  Date of Birth: 31/10/2003
+  </p>
+</div>
+
+<div class="block">
+  <div class="title">DECLARATION</div>
+  <p>
+  I hereby declare that the above information is true and correct.
+  </p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
